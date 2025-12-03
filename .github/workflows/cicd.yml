@@ -1,0 +1,21 @@
+name: 🚀Sync Changes using FTP
+
+on:
+  push:
+    branches:
+      - master # Adjust the branch name as needed
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v1.0.0
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: '89.32.249.147'
+        username: 'newKaraj@fannialborz.ir'
+        password: 'm09191930406'

@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'status_pending' => 'در انتظار دوره',
+    'status_registered' => 'ثبت نام شده',
+    'status_cancelled' => 'لغو شده',
+    'page_title' => 'رزرو ها',
+    'edit' => 'ویرایش رزرو',
+    'delete' => 'حذف رزرو',
+    'paid_amount' => 'مبلغ پرداختی (تومان)',
+    'already_paid_amount' => 'مبلغ پرداخت شده (تومان)',
+    'user' => 'کاربر',
+    'profession' => 'حرفه',
+    'select_profession' => 'انتخاب حرفه',
+    'tuition_fee' => 'هزینه حرفه (تومان)',
+    'course_reserve_description' => 'توضیحات رزرو',
+    'course_reserve_description_placeholder' => 'توضیحات رزرو را وارد کنید',
+    'cancel_reserve' => 'لغو رزرو',
+    'register_course' => 'ثبت نام رزرو',
+    'secretary' => 'مشاور',
+    'select_secretary' => 'انتخاب مشاور',
+    'status' => 'وضعیت',
+    'created_at' => 'تاریخ ثبت',
+    'create' => 'ایجاد رزرو',
+    'reserved_courses' => 'دوره های رزرو شده',
+    'clue' => 'سرنخ',
+    'user_reserved_courses' => 'دوره های رزرو شده کاربر :user',
+    'convert_to_course' => 'تبدیل رزرو به دوره',
+    'messages' => [
+        'successfully_created' => 'رزرو با موفقیت ثبت شد',
+        'successfully_cancelled' => 'رزرو با موفقیت لغو شد',
+        'confirm_cancel' => 'آیا از لغو رزرو مطمئن هستید؟',
+        'successfully_converted' => 'رزرو با موفقیت به دوره تبدیل شد',
+        'error_occurred_in_convert_reserve' => 'خطایی در تبدیل رزرو به دوره رخ داده است',
+    ],
+];
+
