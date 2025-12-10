@@ -303,7 +303,7 @@ if (!function_exists('secondsToTimeString')) {
 if (!function_exists('isAdminNumber')) {
     function isAdminNumber()
     {
-        return in_array(Auth::user()->mobile, ['09191930406', '09912023029', '09126670587']);
+        return in_array(Auth::user()->mobile, ['09191930406', '09127639972', '09126670587']);
     }
 }
 
