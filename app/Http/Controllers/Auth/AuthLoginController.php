@@ -91,7 +91,7 @@ class AuthLoginController extends Controller
                     $sendSms = false;
                 }
 
-                if (in_array($mobile, ['09127639972'])) { // badrkhani
+                if (in_array($mobile, ['09127639972'])) { // mr samaei
                     $otp = '369741';
                     $sendSms = false;
                 }
